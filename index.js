@@ -20,8 +20,9 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(num) {
   let arrayOfLove = [];
-  while (num >0) {
-    arrayOfLove.unshift("I love the beatles");
-    num--
-  }
+  do {
+    arrayOfLove.unshift("I love the beatles!");
+    num++;
+  } while (num < 15)
+  return arrayOfLove;
 }
