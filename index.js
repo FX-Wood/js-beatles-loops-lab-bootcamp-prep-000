@@ -12,7 +12,7 @@ var johnLennonExclamations = [];
 
 function johnLennonFacts(facts) {
   while (facts.length > 0) {
-    johnLennonExclamations.push(facts.shift() + " !!!");
+    johnLennonExclamations.push(facts.shift() + "  !!!");
   }
   return johnLennonExclamations;
 }
