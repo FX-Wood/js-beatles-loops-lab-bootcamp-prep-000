@@ -17,3 +17,11 @@ function johnLennonFacts(facts) {
   }
   return johnLennonExclamations;
 }
+
+function iLoveTheBeatles(num) {
+  let arrayOfLove = [];
+  while (num >0) {
+    arrayOfLove.unshift("I love the beatles");
+    num--
+  }
+}
