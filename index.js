@@ -14,4 +14,5 @@ function johnLennonFacts(facts) {
   while (facts.length > 0) {
     johnLennonExclamations.push(facts.pop() + " !!!");
   }
+  return johnLennonExclamations;
 }
